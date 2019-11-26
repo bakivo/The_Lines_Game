@@ -107,7 +107,7 @@ LRESULT CALLBACK field_proc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             InvalidateRect(GetParent(hwnd), 0, true);
         }
     }
-    return DefWindowProc(hwnd, uMsg, wParam, lParam);
+    return DefWindowProc(hwnd, uMsg, wParam, lParam); 
 }
 LRESULT CALLBACK my_proc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
